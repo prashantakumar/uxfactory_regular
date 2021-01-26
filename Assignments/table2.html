@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Assignment table</title>
+        <style>
+            table th,td,caption
+            {
+            border: 1px solid rgb(126, 73, 3);
+            }
+       </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                   <caption><b>Pizza Shop 2.0</b></caption>
+            </thead>
+           <tbody>
+               <tr>
+                    <td>Name</td>
+                    <td><input type="text"></td><br>
+               </tr>
+               <tr>
+                   <td>Pizza Topping</td>
+                   <td>
+                       <input type="radio"name="supreme">
+                       <label for="supreme">supreme</label> <br>
+                       <input type="radio"name="Vegiterian">
+                       <label for="Vegiterian">Vegiterian</label> <br>
+                       <input type="radio"name="Hawaiian">
+                       <label for="Hawaiian">Hawaiian</label> <br>
+                   </td>
+               </tr>
+               <tr>
+                   <td>Pizza Sauce</td>
+                   <td>
+                       <select>
+                           <option value="Tometo">Tometo</option><br>
+                           <option value="chilly">chilly</option><br>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Extras</td>
+                    <td>
+                           <input type="checkbox" id="extraschees">
+                           <label for="extraschees">Extras chees</label>
+                           <input type="checkbox" id="glutenFreeBase">
+                           <label for="glutenFreeBase">Gluten free Base</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Delivery Instruction:<br>
+                    <textarea></textarea></td><br>
+                </tr>
+            </tbody>
+                <tfoot>
+                    <tr>
+                        <td><input type="button" value="send my order"></td>
+                    </tr>
+                </tfoot>
+        </table>
+    </body>
+</html>
