@@ -1,0 +1,52 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+.nav{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    margin: 10px;
+}
+.nav .li a:hover{
+    background-color:rgba(137, 43, 226, 0.877);
+}
+ 
+.nav li{
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    border: opx;
+}
+.about{
+    border: 0px;
+}
+.images{
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    border: 0px;
+}
+.images:hover{
+    background-color: rgba(229, 240, 240, 0.795);
+}
+.tag{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    color: red;
+}
+.column1{
+   float: left;
+}
+.column2{
+    float: left;
+ }
+ .column3{
+    float: left;
+ }
+ .column:hover{
+
+     background-color: rgba(57, 118, 230, 0.808);
+ }
+

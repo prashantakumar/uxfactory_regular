@@ -1,0 +1,32 @@
+.orange{
+    float: right;
+    background-color:orange;
+    margin: 0px 2rem 2rem 2rem;
+}
+.white{
+    float: right;
+    background-color:white;
+    margin: 0px 2rem 2rem 2rem;
+}
+.green{
+    float: right;
+    background-color: green;
+    margin: 0px 2rem 2rem 2rem;
+}
+.blue{
+    float: right;
+    color: blue;
+    margin: 0px 2rem 2rem 2rem;
+}
+.text{
+    border: 0px;
+    background-color: rgba(190, 183, 172, 0.685);
+    padding: 20px 10rem 10px 10px;
+    margin: 2rem;
+}
+#tet{
+    float: right;
+    padding: 20px 10rem 10px 10px;
+    border: 10px 10px 10px 10px;
+    margin: 2rem;  
+}

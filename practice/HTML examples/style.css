@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.txt{
+    padding:20px 10rem 10px 10px;
+    background-color: rgba(236, 227, 227, 0.89);
+    margin: 1rem;
+    border: 0px;
+}
+#btn{
+    float: right;
+    padding: 20px 20px 30px 10px;
+    margin-right: 1rem;
+}
+
+.list{
+    margin-left:2rem;
+}
+.dropdown{
+    float: right;
+}
+.optn{
+    background-color: blue;
+    padding:10px;
+    margin-right: 2rem;
+}
