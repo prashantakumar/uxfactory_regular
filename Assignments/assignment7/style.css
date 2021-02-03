@@ -1,82 +1,119 @@
-*{
-    padding: 0px;
-    margin: 0px;
+.t{
+    font-size: xx-small;
+    position: absolute;
+    float: left 30px;
+    margin-left: 90px;
 }
-.logo{
-    font-size: 30px;
-    font-weight: bold;
-    color: red;
-}
-.nav{
+.nav {
     list-style-type: none;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    
+    padding: 10px;
+    margin-left:120px;
 }
-.nav li a{
-    font-size: 1rem;
+.nav li {
+    display: inline;
+    padding:20px;
+}
+.nav li a {
+    font-size: 14px;
+    color: black;
     text-decoration: none;
 }
-.nav .li a:hover{
-    background-color:rgba(137, 43, 226, 0.877);
+.nav li a:hover {
+    color: red;
 }
- 
-*{
-    margin: 10px;
-    padding: 0px;
+#name {
+    color:teal ;
+    font-size: 25px;
+    font-weight: bold;
+    float: left:50px;
 }
-.nav{
-    list-style-type: none;
-    overflow: hidden;
+.nav-center {
+    position: absolute;
+    float:left 100px;
 }
-.nav li{
-  float: left;
-  padding:5px;
-  border: 0px;  
+.d-inline {
+    display: inline;
+    padding-left:700px;
 }
-.button{
-    background-color: red;
-    color:white;
-    border-radius: 20%;
+button{
+    background-color: orangered;
 }
-.input{
-    background-color: rgba(45, 236, 45, 0.712);
+.mainbox{
+    width: 1200px;
+    height: 400px;
+    background-color:whitesmoke;
+    margin:auto;  
+}  
+.box-parent{
+    position: relative;
+    widows: 1000px;
+    height:70px;
+    background-color: yellowgreen;
+    margin: auto;
 }
-.key{
-    padding: 10px 5px 10px 10px;
-    background-color: rgba(172, 167, 167, 0.897);   
+.box-child1,.box-child2,.box-child3{
+    position:relative;
+    top:10px;
+    width:250px;
+    height:20px;
+    background-color: whitesmoke;
+    margin:10px;
+    border-radius: 8px;
 }
-.loc{
-    padding: 10px 5px 10px 10px;
-    background-color: rgba(172, 167, 167, 0.897);   
+.para1,.para2,.para3{
+    width: 50%;
+    margin: left;
 }
-.ran{
-    padding: 10px 5px 10px 10px;
-    background-color: rgba(172, 167, 167, 0.897);   
+.icon1{
+    color: white;
 }
-.sar{
-    padding: 10px 5px 10px 10px;
-    background-color: rgba(172, 167, 167, 0.897);
+.icon2{
+    margin-left:50px;
+}
+.icon3{
+    margin-left:50px;
+}
+.box-child4{
+    position: relative;
+    top:10px;
+    width:100px;
+    height:10px;
     background-color: blue;
+    margin:10px;
+    left:100px;
 }
-.input{
-    float: left;
+.box-child2,.box-child3{
+    left:50px;
 }
-.icon :hover{
-    padding: 20px;
-    margin-left: 20px;
-    border: 20px;
-    background-color: rgba(238, 207, 207, 0.911);
+.box-child1{
+    left:20px;
+}
+
+.container{
+    margin-left: 180px;
+    color:rgba(236, 18, 55, 0.911)
     
 }
-.column {
-    padding: 10px;
-    border: opx;
+.a{
+    border-collapse: separate;
+    border-spacing: 40px 30px ;
 }
+
 .banner{
     border-style: dotted;
-    width: 400px;
-    margin-left: 120px;
+    width:500px;
+    margin: auto;
+}
+h3, .p1{
+    text-align: center;
+}
+.footer{
+    margin-left: 160px;
+}
+.b{
+    border-collapse: separate;
+    margin: auto;
+}
+.b p{
     text-align: center;
 }

@@ -7,76 +7,90 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="John Doe">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meta2</title>
+    <title>meta1</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- <script src="https://kit.fontawesome.com/yourcode.js"></script>-->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
 <body>
-    <!--header-->
     <ul class="nav">
-        <li>
-            <img src="https://www.yarddiant.com/wp-content/uploads/2020/12/logo1.png" alt="logo" width="100"
-                height="30">
-        </li>
-        <li>
-            <a href="#"><i class="fas fa-user-alt"></i>My account</a>
-        </li>
-        <li>
-            <a href="#">About<i class="fa fa-angle-down"></i></a>
-        </li>
-        <li>
-            <a href="#">Help</a>
-        </li>
-        <li>
-            <button type="button" class="button">Post an add <i class="fa fa-plus"></i></button>
-        </li>
+        <li id="name">Yarddiant</li>
+        <br>
+        <p class="t">WEB LOUNGE</p>
+        <div class="nav-centre d-inline">
+            <li>
+                <a href="#"> <i class="fa fa-user" aria-hidden="true"></i> My account </a>
+            </li>
+            <li>
+                <a href="#">About <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+            </li>
+            <li>
+                <a href="#">Help</a>
+            </li>
+            <li>
+                <button type="button">Post an add +</button>
+            </li>
+        </div>
     </ul>
-    <form>
-        <section class="input">
-            <input type="text" name="name" class="key" placeholder="Keyword">
-            <input type="text" name="name" class="loc" placeholder="Location">
-            <input type="text" name="name" class="ran" placeholder="Range">
-            <input type="text" name="name" class="sar" placeholder="Sarch">
-        </section>
-    </form>
-    <div class="icon">
-        <table class="column">
-            <tr colspan="4">
-                <td><i class="fas fa-tractor">Agricultur</i></td><br>
-                <td> <i class="fas fa-motorcycle">Motorcycle</i></td>
-                <td><i class="fas fa-book">Book,Sports&Hobbies</i></td>
-                <td><i class="fas fa-car">Cars(17)</i></td>
-            </tr>
-            <tr colspan="4">
-                <td><i class="fas fa-laptop-medical"></i>Electronics</td><br>
-                <td><i class="fas fa-dumbbell"></i>Dumbbell</td>
-                <td><i class="fas fa-tshirt"></i>Fashion</td>
-                <td><i class="fab fa-free-code-camp"></i>Camp</td>
-            </tr>
-            <tr colspan="4">
-                <td><i class="fas fa-laptop-medical"></i>Electronics</td><br>
-                <td><i class="fal fa-cricket"></i>Cricket</td>
-                <td><i class="fas fa-tshirt"></i>Fashion</td>
-                <td><i class="fab fa-free-code-camp"></i>Camp</td>
-            </tr>
-            <tr colspan="4">
-                <td><i class="fas fa-laptop-medical"></i>Electronics</td><br>
-                <td><i class="fal fa-boxing-glove"></i>Boxing glow</td>
-                <td><i class="fas fa-tshirt"></i>Fashion</td>
-                <td><i class="fab fa-free-code-camp"></i>Camp</td>
-            </tr>
-        </table>
+    <div class="mainbox">
+        <div class="box-parent">
+            <table>
+                <tr colspan="4">
+                    <td class="box-child1">
+                        <p class="para1">Keyword</p>
+                    </td>
+                    <td class="box-child2">
+                        <p class="para2">Location<i class="fas fa-arrows-alt icon2"></i> </p>
+                    </td>
+                    <td class="box-child3">
+                        <p class="para3">Range<i class="fas fa-caret-down icon3"></i></p>
+                    </td>
+                    <td class="box-child4">
+                        <i class="fa fa-search icon1" aria-hidden="true"> Search</i>
+                    </td>
+                </tr>
+            </table>
+        </div><br><br><br>
+        <div class="container">
+            <table class="a">
+                <tr colspan="4">
+                    <div>
+                    <td><i class="fas fa-laptop-medical"></i>Electronics</td>
+                    <td><i class="fas fa-dumbbell"></i>Dumbbell</td>
+                    <td><i class="fas fa-tshirt"></i>Fashion</td>
+                    <td><i class="fab fa-free-code-camp"></i>Camp</td>
+                </div>
+                </tr>
+                <tr colspan="4">
+                    <td><i class="fas fa-laptop-medical"></i>Electronics</td>
+                    <td><i class="fas fa-dumbbell"></i>Dumbbell</td>
+                    <td><i class="fas fa-tshirt"></i>Fashion</td>
+                    <td><i class="fab fa-free-code-camp"></i>Camp</td>
+                </tr>
+                <tr colspan="4">
+                    <td><i class="fas fa-laptop-medical"></i>Electronics</td>
+                    <td><i class="fas fa-dumbbell"></i>Dumbbell</td>
+                    <td><i class="fas fa-tshirt"></i>Fashion</td>
+                    <td><i class="fab fa-free-code-camp"></i>Camp</td>
+                </tr>
+                <tr colspan="4">
+                    <td><i class="fas fa-laptop-medical"></i>Electronics</td>
+                    <td><i class="fas fa-dumbbell"></i>Dumbbell</td>
+                    <td><i class="fas fa-tshirt"></i>Fashion</td>
+                    <td><i class="fab fa-free-code-camp"></i>Camp</td>
+                </tr>
+            </table>
+        </div>
     </div>
+    <br>
     <div class="banner">
-        <h2>BANNER</h2>
-        <p>Simple size and Position</p>
+        <h3>BANNER</h3>
+        <p class="p1">sample size and position</p>
     </div>
     <div class="footer">
-        <h4>Recent Ads</h4>
-        <table class="Ads">
-            <tr>
+        <h4>Recent adds</h4>
+        <table class="b">
+            <tr col span="5">
                 <td><img src="images/alexander-rotker-l8p1aWZqHvE-unsplash.jpg" alt="shoes1" width="200" hight="100">
                     <p>Shoes<br>$10</p>
                 </td>
@@ -91,8 +105,6 @@
                 </td>
                 <td><img src="images/alexander-rotker-l8p1aWZqHvE-unsplash.jpg" alt="shoes1" width="120" hight="0">
                     <p>Shoes<br>$10</p>
-                </td>
-            </tr>
         </table>
     </div>
 </body>
