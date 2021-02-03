@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -7,105 +7,119 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="John Doe">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>meta2</title>
+    <title>meta1</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!-- <script src="https://kit.fontawesome.com/yourcode.js"></script>-->
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
 <body>
-    <!--Header-->
-    <h1><ins>sitelogo</ins></h1>
+    <h1 class="logo"><b>site</b><span>logo</span></h1>
     <ul class="nav">
         <li>
             <a href="#">Home</a>
         </li>
         <li>
-            <a href="#">Product 6</a>
+            <a href="#">Product</a>
         </li>
         <li>
-            <a href="#">Company 2</a>
+            <a href="#">Company</a>
         </li>
         <li>
             <a href="#">Contact</a>
         </li>
-        <li id="face">
-            <a href="#"><i class="fab fa-facebook"></i></a>
+        <li id="right-pos">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
         </li>
     </ul>
-    <section>
-        <div class="banner">
-            <h1>Header image</h1>
+    <div class="header">
+        <p>Header Image</p>
+    </div>
+    <div class="content">
+        <div class="card">
+            <h1>About</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
         </div>
-    </section>
-    <div class="cone">
-        <h3>About</h3>
-        <p>paragraph tag is meant for specifying paragraphs of text. If you don't want the text to start on a new
-            line, I would suggest you're using the tag incorrectly. Perhaps the tag more closely fits what you want
-            to achieve...?</p>
-    </div>
-    <div class=ctwo>
-        <h3>Company</h3>
-        <p>paragraph tag is meant for specifying paragraphs of text. If you don't want the text to start on a new
-            line, I would suggest you're using the tag incorrectly. Perhaps the tag more closely fits what you want
-            to achieve...?</p>
-    </div>
-    <div class="cthree">
-        <h3>Services</h3>
-        <p>paragraph tag is meant for specifying paragraphs of text. If you don't want the text to start on a new
-            line, I would suggest you're using the tag incorrectly. Perhaps the tag more closely fits what you want
-            to achieve...?</p>
-    </div>
-    <div>
-    <div class="last">
-        <h2>Content</h2>
-        <p>paragraph tag is meant for specifying paragraphs of text. If you don't want the text to start on a new
-            line, I would suggest you're using the tag incorrectly. Perhaps the tag more closely fits what you want
-            to achieve...?</p>
-        <h3>Sub Header</h3>
-        <p>paragraph tag is meant for specifying paragraphs of text. If you don't want the text to start on a new
-            line, I would suggest you're using the tag incorrectly. Perhaps the tag more closely fits what you want
-            to achieve...?paragraph tag is meant for specifying paragraphs of text. If you don't want the text to start
-            on a new
-            line, I would suggest you're using the tag incorrectly. Perhaps the tag more closely fits what you want
-            to achieve...?</p>
-        <div class="table">
-            <table>
-                <h3>Navigation</h3>
-                <tr>
-                    <td>Home</td>
-                </tr>
-                <tr>
-                    <td>Product6</td>
-                </tr>
-                <tr>
-                    <td>Company2</td>
-                </tr>
-                <tr>
-                    <td>Cantact</td>
-                </tr>
-
-            </table>
+        <div class="card">
+            <h1>Company</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+        </div>
+        <div class="card">
+            <h1>Services</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
         </div>
     </div>
-        <h3>Gallery</h3>
-        <ul class="nav">
-            <li>
-                <a href="#">Gallery image</a>
-            </li>
-            <li>
-                <a href="#">Gallery image</a>
-            </li>
-            <li>
-                <a href="#">Gallery image</a>
-            </li>
-            <li>
-                <a href="#">Gallery image</a>
-            </li>
+    <div class="container">
+        <div class="col-7">
+            <h1>Content</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+            <h2>Sub Header</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua.Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua.
+            </p>
+        </div>
+        <div class="col-3">
+            <h2>Navigation</h2>
+            <ul class="sub-nav">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Product</a>
+                </li>
+                <li>
+                    <a href="#">Company</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
 
-        </ul>
+    </div>
+    <div class="gallery">
+        <h2>Gallery</h2>
+        <div class="blue">
+            <p>Gallery Image</p>
+        </div>
+        <div class="green">
+            <p>Gallery Image</p>
+        </div>
+        <div class="yellow">
+            <p>Gallery Image</p>
+        </div>
+        <div class="red">
+            <p>Gallery Image</p>
+        </div>
+    </div>
 
 </body>
 
-
-</html>
+</html>        

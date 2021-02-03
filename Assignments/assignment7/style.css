@@ -2,9 +2,6 @@
     padding: 0px;
     margin: 0px;
 }
-.hed{
-    margin: 10px 20rem 10px 20rem;
-}
 .logo{
     font-size: 30px;
     font-weight: bold;
@@ -15,7 +12,7 @@
     margin:0;
     padding:0;
     overflow: hidden;
-    margin: 10px;
+    
 }
 .nav li a{
     font-size: 1rem;
@@ -35,7 +32,6 @@
 }
 .nav li{
   float: left;
-  margin:30px;
   padding:5px;
   border: 0px;  
 }
@@ -49,23 +45,19 @@
 }
 .key{
     padding: 10px 5px 10px 10px;
-    background-color: rgba(172, 167, 167, 0.897);
-    margin: 10px;   
+    background-color: rgba(172, 167, 167, 0.897);   
 }
 .loc{
     padding: 10px 5px 10px 10px;
-    background-color: rgba(172, 167, 167, 0.897);
-    margin: 10px;   
+    background-color: rgba(172, 167, 167, 0.897);   
 }
 .ran{
     padding: 10px 5px 10px 10px;
-    background-color: rgba(172, 167, 167, 0.897);
-    margin: 10px;   
+    background-color: rgba(172, 167, 167, 0.897);   
 }
 .sar{
     padding: 10px 5px 10px 10px;
     background-color: rgba(172, 167, 167, 0.897);
-    margin: 10px;
     background-color: blue;
 }
 .input{
@@ -79,7 +71,6 @@
     
 }
 .column {
-    margin: 10px;
     padding: 10px;
     border: opx;
 }
@@ -88,9 +79,4 @@
     width: 400px;
     margin-left: 120px;
     text-align: center;
-}
-.banner :hover{
-    background-color: rgba(104, 164, 224, 0.856);
-}
-.hover{
 }

@@ -1,74 +1,132 @@
-*{
-    padding: 1px;
-    margin: 30px;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEE;
 }
-.nav{
+.logo {
+    font-weight: normal;
+    background-color: white;
+    color: #152733;
+    font-size: 45px;
+    margin: 0;
+    padding: 20px;
+}
+.nav {
     list-style-type: none;
-    margin: 0px;
-    padding: 10px 10px 10px 10px;
-    overflow: hidden;
-    background-color: black;
-    margin: 10px;
-    margin-top: 20px;
-    
+    position: relative;
+    background-color: #152733;
+    padding: 20px;
+    margin: 0 0 20px 0;
 }
-.nav li{
-    font-size: 1rem;
+.nav li {
+    display: inline;
+}
+.nav li a {
     text-decoration: none;
-    float: left;
-    margin: 0px;   
-}
-#face{
-    float: right;
-}
-.nav li a{
+    padding: 20px;
+    font-size: 18px;
     color: white;
-    text-decoration: none;
+    font-weight: bold;
 }
-.banner{
-    border: olivedrab;
-    width: 400px;
-    margin-left: 120px;
+.nav li a:hover {
+    background-color: #EEE;
+    color: #152733;
+}
+#right-pos {
+    position: absolute;
+    right: 20px;
+}
+#right-pos a {
+    background-color: #EEE;
+    color: #152733;
+    border-radius: 100%;
+    padding: 10px 15px;
+}
+.header {
+    background-color: #9FBC2E;
+    color: white;
+    width: 100%;
+    height: 400px;
+    line-height: 400px;
     text-align: center;
 }
-.cone{
-   float: left;
-   width: 250px;
+.header p {
+    margin: 0;
+    font-size: 64px;
 }
-.ctwo{
-    float: left;
-    width:250px;
- }
- .cthree{
-    float: left;
-    width: 250px;
- }
- .last{
-     float: left;
-     width: 500px;
- }
- .table{
-     float: left;
-      
-       
- }
- .gallery{
-     text-align: center;
- }
- .nav{
-    list-style-type: none;
-    margin: 0px;
-    padding: 10px 10px 10px 10px;
+.content {
+    text-align: center;
+    width: 100%;
+    margin: 20px;
+}
+.content .card{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+.container {
+    width: 65%;
+    margin: auto;
     overflow: hidden;
-    margin: 10px;
-    margin-top: 10px;
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+.container div{
     float: left;
-    bo
- }
- .nav{
-    font-size: 2rem;
+}
+.container div.col-7 {
+    width: 70%;
+}
+.container div.col-3 {
+    width: 30%;
+}
+.col-3 h2 {
+    padding-left: 15%;
+}
+.sub-nav {
+    list-style-type: none;
+    background-color: #e7e7e7;
+}
+.sub-nav li {
+    padding: 15px;
+}
+.sub-nav li a {
     text-decoration: none;
-    float: left;
-    margin: 10px;
-    text-decoration: none; 
- }
+    color: black;
+}
+
+.gallery {
+    clear: both;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.gallery div {
+    display: inline-block;
+    width: 25%;
+    height: 180px;
+    margin-left: -4px;
+    margin-bottom: 50px;
+}
+.gallery .blue {
+    background-color: #5EB1CF;
+}
+.gallery .green {
+    background-color: #9FBC2E;
+}
+.gallery .yellow {
+    background-color: #F5BC3B;
+}
+.gallery .red {
+    background-color: #E75557;
+}
+.gallery div p {
+    color: white;
+    font-size: 20px;
+    line-height: 150px;
+}
+
