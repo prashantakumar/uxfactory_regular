@@ -1,52 +1,59 @@
 *{
-    margin: 5px;
-    padding: 0px;
+    box-sizing: border-box;
 }
 .nav{
     list-style-type: none;
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    margin: 10px;
-}
-.nav .li a:hover{
-    background-color:rgba(137, 43, 226, 0.877);
-}
- 
-.nav li{
-    float: left;
-    margin: 10px;
-    padding: 20px;
-    border: opx;
-}
-.about{
-    border: 0px;
-}
-.images{
-    padding: 10px 10px 10px 10px;
-    margin: 10px;
-    border: 0px;
-}
-.images:hover{
-    background-color: rgba(229, 240, 240, 0.795);
-}
-.tag{
-    padding: 0px;
+    padding: 15px;
     margin: 0px;
-    border: 0px;
-    color: red;
 }
-.column1{
-   float: left;
+.nav li{
+    display: inline;
+    padding: 15px 15px;
 }
-.column2{
+.nav li a{
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+}
+.nav li a :hover{
+    color:rgba(190, 84, 84, 0.781);
+}
+#nav-logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-center{
+    position: absolute;
+    left: 40%;
+}
+.d-inline{
+    display: inline;
+}
+.card .shoes img{
+    width: 280px;
+    height: 220px;
     float: left;
- }
- .column3{
+    margin: 5px;
+    border: 1px solid black;
+}
+.card .shoes  img{
+    margin: 10px;
+}
+.card {
+    margin: auto;
+    width: 70%;
+    margin-top: 15px;
+}
+.col{
     float: left;
- }
- .column:hover{
-
-     background-color: rgba(57, 118, 230, 0.808);
- }
-
+    width: 30%;
+    padding: 5px;
+}
+.red-btn{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 1px solid white;
+}

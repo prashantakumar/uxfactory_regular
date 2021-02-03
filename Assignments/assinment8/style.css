@@ -1,0 +1,74 @@
+*{
+    padding: 1px;
+    margin: 30px;
+}
+.nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+    background-color: black;
+    margin: 10px;
+    margin-top: 20px;
+    
+}
+.nav li{
+    font-size: 1rem;
+    text-decoration: none;
+    float: left;
+    margin: 0px;   
+}
+#face{
+    float: right;
+}
+.nav li a{
+    color: white;
+    text-decoration: none;
+}
+.banner{
+    border: olivedrab;
+    width: 400px;
+    margin-left: 120px;
+    text-align: center;
+}
+.cone{
+   float: left;
+   width: 250px;
+}
+.ctwo{
+    float: left;
+    width:250px;
+ }
+ .cthree{
+    float: left;
+    width: 250px;
+ }
+ .last{
+     float: left;
+     width: 500px;
+ }
+ .table{
+     float: left;
+      
+       
+ }
+ .gallery{
+     text-align: center;
+ }
+ .nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 10px;
+    float: left;
+    bo
+ }
+ .nav{
+    font-size: 2rem;
+    text-decoration: none;
+    float: left;
+    margin: 10px;
+    text-decoration: none; 
+ }

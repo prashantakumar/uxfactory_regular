@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.hed{
+    margin: 10px 20rem 10px 20rem;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+.nav{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    margin: 10px;
+}
+.nav li a{
+    font-size: 1rem;
+    text-decoration: none;
+}
+.nav .li a:hover{
+    background-color:rgba(137, 43, 226, 0.877);
+}
+ 
+*{
+    margin: 10px;
+    padding: 0px;
+}
+.nav{
+    list-style-type: none;
+    overflow: hidden;
+}
+.nav li{
+  float: left;
+  margin:30px;
+  padding:5px;
+  border: 0px;  
+}
+.button{
+    background-color: red;
+    color:white;
+    border-radius: 20%;
+}
+.input{
+    background-color: rgba(45, 236, 45, 0.712);
+}
+.key{
+    padding: 10px 5px 10px 10px;
+    background-color: rgba(172, 167, 167, 0.897);
+    margin: 10px;   
+}
+.loc{
+    padding: 10px 5px 10px 10px;
+    background-color: rgba(172, 167, 167, 0.897);
+    margin: 10px;   
+}
+.ran{
+    padding: 10px 5px 10px 10px;
+    background-color: rgba(172, 167, 167, 0.897);
+    margin: 10px;   
+}
+.sar{
+    padding: 10px 5px 10px 10px;
+    background-color: rgba(172, 167, 167, 0.897);
+    margin: 10px;
+    background-color: blue;
+}
+.input{
+    float: left;
+}
+.icon :hover{
+    padding: 20px;
+    margin-left: 20px;
+    border: 20px;
+    background-color: rgba(238, 207, 207, 0.911);
+    
+}
+.column {
+    margin: 10px;
+    padding: 10px;
+    border: opx;
+}
+.banner{
+    border-style: dotted;
+    width: 400px;
+    margin-left: 120px;
+    text-align: center;
+}
+.banner :hover{
+    background-color: rgba(104, 164, 224, 0.856);
+}
+.hover{
+}

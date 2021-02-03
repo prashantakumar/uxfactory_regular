@@ -9,83 +9,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meta1</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 
 <body>
-    <h2>Logo</h2>
     <!--Header-->
     <ul class="nav">
         <li>
-            <a href="#dome">Home</a>
+            <a href="#" id="nav-logo">Logo</a>
         </li>
-        <li>
-            <select class="about">
-                <option><a href="#about">About</a></option>
-            </select>
-        </li>
-        <li>
-            <a href="#products">Products</a>
-        </li>
-        <li>
-            <a href="#contact">Contact</a>
-        </li>
+        <div class="nav-center d-inline">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="#">Products</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </div>
     </ul>
     <!--images-->
-    <div class="images">
-        <img src="Images copy/alexander-rotker-l8p1aWZqHvE-unsplash.jpg" alt="images" width="150" hight="300">
-        <img src="Images copy/chuttersnap-AWCZhfdIq8c-unsplash.jpg" alt="images" width="150" hight="300">
-        <img src="Images copy/chuttersnap-CLAWRoZtlAg-unsplash.jpg" alt="images" width="150" hight="300">
-        <img src="Images copy/chuttersnap-XNqLljW6XU8-unsplash (1).jpg" alt="images" width="150" hight="300"><br>
-        <img src="Images copy/jeremy-alford-EfLwt5Xz5Ek-unsplash.jpg" alt="images" width="150" hight="300">
-        <img src="Images copy/malvestida-magazine-DMl5gG0yWWY-unsplash.jpg" alt="images" width="150" hight="300">
-        <img src="Images copy/revolt-164_6wVEHfI-unsplash.jpg" alt="images" width="150" hight="300">
-        <img src="Images copy/robin-davidson-oDnPch2Fu1U-unsplash.jpg" alt="images" width="150" hight="300">
+    <div class="card">
+        <div class="shoes">
+            <img src="Images copy/alexander-rotker-l8p1aWZqHvE-unsplash.jpg" alt="images">
+        </div>
+        <div class="shoes">
+            <img src="Images copy/chuttersnap-AWCZhfdIq8c-unsplash.jpg" alt="images">
+        </div>
+        <div class="shoes">
+            <img src="Images copy/chuttersnap-CLAWRoZtlAg-unsplash.jpg" alt="images">
+        </div>
+        <div class="shoes">
+            <img src="Images copy/chuttersnap-XNqLljW6XU8-unsplash (1).jpg" alt="images">
+        </div>
+        <div class="shoes">
+            <img src="Images copy/jeremy-alford-EfLwt5Xz5Ek-unsplash.jpg" alt="images">
+        </div>
+        <div class="shoes">
+            <img src="Images copy/malvestida-magazine-DMl5gG0yWWY-unsplash.jpg" alt="images">
+        </div>
+        <div class="shoes">
+            <img src="Images copy/revolt-164_6wVEHfI-unsplash.jpg" alt="images">
+        </div>
+        <div class="shoes">
+            <img src="Images copy/robin-davidson-oDnPch2Fu1U-unsplash.jpg" alt="images">
+        </div>
+        <div class="shoes">
+            <img src="Images copy/jeremy-alford-EfLwt5Xz5Ek-unsplash.jpg" alt="images">
+        </div>
     </div>
     <!--Highlights-->
-    <div class="column">
-        <section>
+    <div class="container">
+        <div class="col">
             <h3>Column 1</h3>
-            <p>A shoe is an item ofintended to.<br>
-                Shoes are also used item of<br>
-                has varied enormouthrough time <br>
-                originally being tiedfunction.</p>
-            <div class="tag">
-                <button type="button" class="tag">&copy;readmore</button>
-            </div>
-    </div>
-    </section>
-    <section>
-        <div class="column2">
-            <blockquote>
-                <h3>Column 2</h3>
-                <p>A shoe is an item intended to.<br>
-                    Shoes are also use item of<br>
-                    has varied enormously time <br>
-                    originally being tiedfunction.</p>
-            </blockquote>
-            <div class="tag">
-                <button type="button" class="tag">&copy;readmore</button>
-            </div>
+            <p>A shoe is an item ofintended to.
+                Shoes are also used item of
+                has varied enormouthrough time
+                originally being tiedfunction.
+            </p>
+            <button type="button" class="red-btn"><i class="fas fa-eye"></i>Read More</button>
         </div>
-    </section>
-    <section>
-        <div class="column3">
-            <blockquote>
-                <h3>Column 3</h3>
-                <p>A shoe is an item of intended.<br>
-                    Shoes are also used item of <br>
-                    has varied enormously time <br>
-                    originally being tied function.</p>
-            </blockquote>
-            <!--Button-->
-            <div>
-                <button type="button" class="tag">&copy;readmore</button>
-            </div>
+        <div class="col">
+            <h3>Column 2</h3>
+            <p>A shoe is an item ofintended to.
+                Shoes are also used item of
+                has varied enormouthrough time
+                originally being tiedfunction.
+            </p>
+            <button type="button" class="red-btn"><i class="fas fa-eye"></i>Read More</button>
         </div>
-    </section>
+        <div class="col">
+            <h3>Column 3</h3>
+            <p>A shoe is an item ofintended to.
+                Shoes are also used item of
+                has varied enormouthrough time
+                originally being tiedfunction.
+            </p>
+            <button type="button" class="red-btn"><i class="fas fa-eye"></i>Read More</button>
+        </div>
     </div>
-
-
 </body>
 
 </html>
