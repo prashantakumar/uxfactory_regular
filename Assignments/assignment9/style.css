@@ -1,0 +1,54 @@
+.nav{
+    width: 100%;
+    border: 3px;
+    background-color:blue;
+    color: white;
+}
+.a{
+    text-align: right;
+}
+tr .search-fiel{
+    width: 450px;
+    height: 30px;
+}
+tr .button-box{
+    width: 80px;
+    height: 35px;
+    margin-left: -80px;
+    padding: auto;
+}
+.button-box :hover{
+  background-color: yellow;
+}
+.login{
+    width: 90px;
+    height: 30px;
+    padding:10px 10px 10px 10px;
+    margin-left:-1rem;
+}
+.second{
+  background-color: rgb(204, 238, 111);
+  width: 100%;
+  color: black;
+  height: 20%;
+}
+.more{
+    padding: 10px 1rem 10px 10px;
+    margin-top: 10px;
+    border: 0px;
+    height: 30px;
+}
+.row .images{
+    background-color: white;
+}
+.col{
+    background-color: white;
+    color: black;
+}
+div{
+  border: solid red;
+  transform: translate(30px, 20px) rotate(20deg);
+  width: 80px;
+  height:20px;
+}
+

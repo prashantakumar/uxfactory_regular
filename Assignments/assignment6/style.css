@@ -12,15 +12,27 @@
 }
 .nav li a{
     font-size: 1rem;
-    color: black;
+    color: white;
     text-decoration: none;
+
 }
 .nav li a :hover{
     color:rgba(190, 84, 84, 0.781);
 }
+header{
+    position: absolute;
+    background-color: rgba(31, 24, 24, 0.897);
+    width: 100%;
+    color: azure;
+}
+header{
+    position: relative;
+    height:10vh;
+}
 #nav-logo{
     font-size: 25px;
     font-weight: bold;
+    color: yellow;
 }
 .nav-center{
     position: absolute;
@@ -34,20 +46,18 @@
     height: 220px;
     float: left;
     margin: 5px;
-    border: 1px solid black;
-}
-.card .shoes  img{
-    margin: 10px;
 }
 .card {
     margin: auto;
-    width: 70%;
-    margin-top: 15px;
+    width: 70%;  
 }
 .col{
     float: left;
     width: 30%;
     padding: 5px;
+}
+.col :hover{
+    background-color: rgb(230, 175, 36);
 }
 .red-btn{
     background-color: red;
