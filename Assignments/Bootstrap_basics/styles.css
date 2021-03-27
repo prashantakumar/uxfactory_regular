@@ -8,3 +8,7 @@
 .btn-warning :hover{
     background-color: red;
 }
+body{
+    background-image: url("images/tree-736885__340.jpg");
+    background-size: 100% 100%;
+}

@@ -7,7 +7,7 @@
 .a{
     text-align: right;
 }
-tr .search-fiel{
+tr .search-field{
     width: 450px;
     height: 30px;
 }
@@ -17,7 +17,7 @@ tr .button-box{
     margin-left: -80px;
     padding: auto;
 }
-.button-box :hover{
+.button-box:hover{
   background-color: yellow;
 }
 .login{
