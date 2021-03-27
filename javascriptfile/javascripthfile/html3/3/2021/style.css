@@ -1,0 +1,76 @@
+.fixed{
+    position: fixed;
+    width: 100px;
+    right: 0px;
+    top: 100px;
+}
+.relative{
+    color: rgba(247, 83, 83, 0.945);
+    position: relative;
+    width: 160px;
+    height: 50px;
+    top: 410px;
+    left: 225px;
+}
+.sticky{
+    color: rgba(247, 83, 83, 0.945);
+    position: sticky;
+    width: 200px;
+    height: 60px;
+    bottom: 0px;
+}
+.absolute{
+    color: rgba(247, 83, 83, 0.945);
+    position: absolute;
+    left: 50px;
+    width: 200px;
+    height: 60px;
+    top: 50px;
+}
+.static{
+    color: rgba(247, 83, 83, 0.945);
+    position: static;
+    width: 200px;
+    height: 60px;
+}
+.main1 :hover{
+    background: rgba(173, 165, 246, 0.993);
+}
+.main1{
+    text-align: center;
+}
+.number{
+    padding: 10px;
+    background-color: lawngreen;
+}
+.numbers{
+    padding: 10px;
+    background-color: orange;
+}
+
+.dot{
+    border-top: dotted;
+    color: rgba(24, 16, 16, 0.739);
+}
+
+.view{
+    padding: 10px 80px 10px 80px;
+    border-style: solid;
+    color: rgba(243, 80, 16, 0.87);
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    width: 100%;
+    margin: 20px;    
+}
+.content .card{
+    float: left;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(238, 229, 204, 0.835);  
+}
