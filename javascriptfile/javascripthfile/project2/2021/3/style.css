@@ -1,0 +1,41 @@
+.main1 :hover{
+    background: rgba(174, 166, 247, 0.993);
+}
+.main1{
+    text-align: center;
+}
+.number{
+    padding: 10px;
+    background-color: lawngreen;
+}
+.numbers{
+    padding: 10px;
+    background-color: orange;
+}
+
+.dot{
+    border-top: dotted;
+    color: rgba(24, 16, 16, 0.739);
+}
+
+.view{
+    padding: 10px 80px 10px 80px;
+    border-style: solid;
+    color: rgba(243, 80, 16, 0.87);
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    width: 100%;
+    margin: 20px;    
+}
+.content .card{
+    float: left;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(238, 229, 204, 0.835);  
+}
