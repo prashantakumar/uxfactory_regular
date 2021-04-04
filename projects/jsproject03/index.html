@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="prashant">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>meta1</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </head>
+    <body>
+        <ul class="cantainers">
+            <li class="box">
+                <i class="fas fa-circle" style="font-size: 50px;"></i>
+                StockManager
+            </li>
+        </ul>
+        <div class="container">
+            <div class="table1">
+                <table id="table" border="1px">
+                    <tr>
+                        <th class="id">Id</th>
+                        <th class="pro">product Name</th>
+                        <th class="se">Seller</th>
+                        <th class="pr">price</th>
+                    </tr>                   
+                </table>
+            </div>
+            <div class="table2">
+               <input class="pid" type="number" name="pId" id="pId"> 
+               <input class="pname" type="text" name="pName" id="pName" placeholder="prduct2">
+               <input class="pseller" type="text" name="pSeller" id="pSeller" placeholder="dialy electronic">
+               <input class="price" type="number" name="price" id="price" placeholder="price mony"> 
+               
+               <button class="one" onclick="CreateHtmlTableRow();">Create</button>
+               <button class="two" onclick="ReadHtmlTableRow();">Read</button>
+               <button class="three" onclick="UpdateHtmlTbleSelectedRow();">Update</button>
+               <button class="four" onclick="DeleteSelectedRow();">Delete</button>
+            </div>
+        </div>
+        
+        <script>
+            var productid = 1;
+            
+            var rIndex,
+                table = document.getElementById("table");
+            
+            // check the empty input
+            function checkEmptyInput()
+            {
+                var isEmpty = false,
+                    pId = document.getElementById("pId").value,
+                    pName = document.getElementById("pName").value,
+                    pSeller = document.getElementById("pSeller").value;
+                    price = document.getElementById("price").value;
+            
+                if(pId === ""){
+                    alert("pid Connot Be Empty");
+                    isEmpty = true;
+                }
+                else if(pName === ""){
+                    alert("pname Connot Be Empty");
+                    isEmpty = true;
+                }
+                else if(pSeller === ""){
+                    alert("pseller Connot Be Empty");
+                    isEmpty = true;
+                }
+                else if(price === ""){
+                    alert("price Connot Be Empty");
+                    isEmpty = true;
+                }
+                return isEmpty;
+            }
+
+            function getindex(){
+                      document.getElementById("pId").value = productid;
+                      document.getElementById("pName").value = "";
+                      document.getElementById("pSeller").value = "";
+                      document.getElementById("price").value = "";
+                  productid++;
+                    
+            }
+            // add Row
+            function CreateHtmlTableRow()
+            {
+                // get the table by id
+                // create a new row and cells
+                // get value from input text
+                // set the values into row cell's
+                if(!checkEmptyInput()){
+                var newRow = table.insertRow(table.length),
+                    cell1 = newRow.insertCell(0),
+                    cell2 = newRow.insertCell(1),
+                    cell3 = newRow.insertCell(2),
+                    cell4 = newRow.insertCell(3),
+                    pId =document.getElementById("pId").value,
+                    pName = document.getElementById("pName").value,
+                    pSeller = document.getElementById("pSeller").value;
+                    price = document.getElementById("price").value;
+            
+                cell1.innerHTML = pId;
+                cell2.innerHTML = pName;
+                cell3.innerHTML = pSeller;
+                cell4.innerHTML = price;
+                // call the function to set the event to the new row
+                selectedRowToInput();
+            }
+            }
+            
+            // display selected row data into input text
+            function selectedRowToInput()
+            {
+                
+                for(var i = 1; i < table.rows.length; i++)
+                {
+                    table.rows[i].onclick = function()
+                    {
+                      // get the seected row index
+                      rIndex = this.rowIndex;
+                      document.getElementById("pId").value = this.cells[0].innerHTML;
+                      document.getElementById("pName").value = this.cells[1].innerHTML;
+                      document.getElementById("pSeller").value = this.cells[2].innerHTML;
+                      document.getElementById("price").value = this.cells[3].innerHTML;
+                    };
+                }
+                getindex();
+            }
+            selectedRowToInput();
+
+        //     function ReadHtmlTableRow(){
+        //         var pId = document.getElementById("pId").value = "",
+        //             pName = document.getElementById("pName").value = "pName",
+        //             pSeller = document.getElementById("pSeller").value ="pSeller";
+        //             price = document.getElementById("price").value ="";
+             
+        // }
+                       
+            function UpdateHtmlTbleSelectedRow()
+            {
+                var pId = document.getElementById("pId").value,
+                    pName = document.getElementById("pName").value,
+                    pSeller = document.getElementById("pSeller").value;
+                    price = document.getElementById("price").value;
+               if(!checkEmptyInput()){
+                table.rows[rIndex].cells[0].innerHTML = pId;
+                table.rows[rIndex].cells[1].innerHTML = pName;
+                table.rows[rIndex].cells[2].innerHTML = pSeller;
+                table.rows[rIndex].cells[3].innerHTML = price;
+              }
+            }
+            
+            function DeleteSelectedRow()
+            {
+                table.deleteRow(rIndex);
+                // clear input text
+                document.getElementById("pId").value = "";
+                document.getElementById("pName").value = "";
+                document.getElementById("pSeller").value = "";
+                document.getElementById("price").value = "";
+            }
+        </script>
+        
+    </body>
+</html>

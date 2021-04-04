@@ -1,0 +1,134 @@
+.cantainers {
+    background-color: rgb(221, 237, 247);
+    color: #0e9af8;
+    font-size: 45px;
+    padding:30px;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 30px;
+    font-size: 55px;
+}
+
+.box{
+    text-align: center;
+}
+
+.container{
+    overflow: hidden;
+}
+
+.tab{
+    float: left;
+}
+
+.table1{
+    position: absolute;
+    left: 350px;
+    top: 400px;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.table1:hover{
+    background-color: rgb(145, 141, 141);
+}
+
+.id{
+    padding-right: 60px;
+    font-weight: lighter;
+   
+}
+
+.pro{
+    padding-right: 60px;
+    font-weight: lighter;
+    
+}
+
+.se{
+    padding-right: 60px;
+    font-weight: lighter;
+}
+
+.pr{
+    padding-right: 60px;
+    font-weight: lighter;
+}
+/* #table{   
+    width: 400px;
+    height: 50px;
+    font-size: 20px;   
+} */
+
+.pid{
+    margin-left: 260px;
+    width: 61%;
+    height: 30px;
+    background-color: rgb(218, 216, 216);
+    margin-bottom: 20px;
+}
+
+.pname{
+    margin-left: 260px;
+    width: 61%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.pseller{
+    margin-left: 260px;
+    width: 30%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.price{
+    margin-left: 0px;
+    width: 30%;
+    height: 30px;
+    margin-bottom: 40px;
+}
+
+.tab-2{
+    margin-left: 50px
+}
+
+.tab-2 input{
+    display: block;margin-bottom: 10px
+}
+
+tr{
+    transition:all .25s ease-in-out
+}
+
+.one {
+  background-color: green;
+  border-radius: 10px;
+  padding: 12px;
+  width: 150px;
+  margin-left: 300px;
+}
+
+.two {
+    background-color:blue;
+    border-radius: 10px;
+    padding: 12px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.three {
+    background-color:chocolate;
+    border-radius: 10px;
+    padding: 12px;
+    width: 150px;
+    margin-left: 30px;
+}
+
+.four {
+    background-color:red;
+    border-radius: 10px;
+    padding: 12px;
+    width: 150px;
+    margin-left: 30px;
+}
